@@ -51,7 +51,7 @@ const data = JSON.parse(`
             "nome": "Luminária LED Articulada",
             "preco": 45.00,
             "categoria": "Casa",
-            "imagem": "https://images.unsplash.com/photo-1534349762230-e8cadfef3f7e?w=500&auto=format&fit=crop&q=60",
+            "imagem": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500&auto=format&fit=crop&q=60",
             "descricao": "Luz focada para estudos e trabalho com touch e ajuste de brilho.",
             "emEstoque": true
         },
