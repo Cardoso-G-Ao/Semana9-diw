@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Ecommerce - Catálogo em Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Mini Ecommerce</h1>
+        <p>Catálogo interativo com manipulação do DOM</p>
+    </header>
+
+    <main class="container">
+        <!-- Área de Controles -->
+        <section class="controls-section">
+            <div class="control-group">
+                <label for="search">Pesquisar:</label>
+                <input type="text" id="search" placeholder="Digite o nome do produto...">
+            </div>
+
+            <div class="control-group">
+                <label for="category">Categoria:</label>
+                <select id="category">
+                    <option value="Todas">Todas</option>
+                </select>
+            </div>
+
+            <button id="btnRender">Renderizar</button>
+        </section>
+
+       
+        <section id="product-details" class="details-box">
+            <p class="details-placeholder">Clique em "Ver detalhes" em um produto para exibir suas informações completas aqui.</p>
+        </section>
+        <section>
+            <h2>Catálogo de Produtos</h2>
+            <div id="product-list" class="product-grid"></div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Gabriel Cardoso - PUC Minas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
